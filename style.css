@@ -1,0 +1,43 @@
+body{
+    background-image: url('images/favicon.png');
+    background-repeat: repeat;
+    background-size: 50px;
+}
+.diva{
+    background-color: rgba(250, 235, 215, 0.959);
+    border-radius: 9px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border-color: rgb(1, 0, 83);
+    border-width: 2px;
+    border: 2px;
+    padding: 25px;
+    border-style:solid;
+    text
+}
+
+.title{
+    background-color: rgba(147, 199, 214, 0.986);
+    border-radius: 9px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-color: rgb(1, 0, 83);
+    border-width: 2px;
+    border: 2px;
+    padding: 50px;
+    border-style:solid;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+      
+
+}
+
+
+
