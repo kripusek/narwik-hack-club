@@ -1,43 +1,90 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     background-image: url('images/favicon.png');
     background-repeat: repeat;
     background-size: 50px;
-}
-.diva{
-    background-color: rgba(250, 235, 215, 0.959);
-    border-radius: 9px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    border-color: rgb(1, 0, 83);
-    border-width: 2px;
-    border: 2px;
-    padding: 25px;
-    border-style:solid;
-    text
+    margin: 0;
+    padding: 0;
 }
 
-.title{
-    background-color: rgba(147, 199, 214, 0.986);
+.diva {
+    background-color: rgba(250, 235, 215, 0.959);
     border-radius: 9px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    max-width: 700px;
+    margin: 10px auto 60px auto;
     border-color: rgb(1, 0, 83);
     border-width: 2px;
-    border: 2px;
-    padding: 50px;
-    border-style:solid;
+    padding: 25px;
+    border-style: solid;
+}
+
+.diva p,
+.diva li {
+    line-height: 1.5;
+}
+
+.workshop-note {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.workshop-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.title {
+    background-color: rgba(147, 199, 214, 0.986);
+    border-radius: 9px;
+    max-width: 900px;
+    margin: 25px auto;
+    border-color: rgb(1, 0, 83);
+    border-width: 2px;
+    padding: 50px 20px;
+    border-style: solid;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
     text-align: center;
-      
-
 }
 
+/* Tablet / smaller desktop */
+@media (max-width: 800px) {
+    .title {
+        margin: 20px 24px;
+        font-size: 34px;
+        padding: 36px 16px;
+    }
+    .diva {
+        margin: 10px 24px 40px 24px;
+    }
+}
 
-
+/* Phones */
+@media (max-width: 480px) {
+    .title {
+        margin: 15px 12px;
+        font-size: 26px;
+        padding: 24px 12px;
+    }
+    .diva {
+        margin: 10px 12px 30px 12px;
+        padding: 16px;
+    }
+    .diva h2 {
+        font-size: 20px;
+    }
+    .diva h3 {
+        font-size: 17px;
+    }
+    .diva p,
+    .diva li {
+        font-size: 15px;
+    }
+}
